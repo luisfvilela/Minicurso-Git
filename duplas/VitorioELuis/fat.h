@@ -1,5 +1,5 @@
 //Insira seu nome
-#define NOME_FAT "__"
+#define NOME_FAT "Vitorio"
 
 
 int fatorial(int n){
