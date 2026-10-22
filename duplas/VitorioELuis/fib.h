@@ -1,7 +1,8 @@
-//Insira seu nome
-#define NOME_FIB "_"
+// Luís Felipe
+#define NOME_FIB "Luís Felipe"
 
 int fibonacci(int n){
-    //TODO!
-    return 0;
+    if(n == 0) return 0;
+    if(n == 1) return 1;
+    return fibonacci(n-1) + fibonacci(n-2);
 }
